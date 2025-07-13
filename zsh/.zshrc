@@ -7,7 +7,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="apple"
 
-plugins=(git zsh-nvm zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git z zsh-nvm zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
