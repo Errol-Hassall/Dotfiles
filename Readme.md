@@ -10,3 +10,16 @@ Collection of my dotfile configs for easier setup and managment of multiple devi
 - install zsh-nvm with `git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm`
 - run `stow .` to install all folders into their respective sections on the home dir.
 - add any of the zsh plugins that have to be install manually.
+
+## Packages to install
+
+- curl
+
+- zsh
+- nvim
+- ghostty
+- git
+- z
+- zsh-nvm
+- zsh-autosuggestions
+- zsh-syntax-highlighting)
