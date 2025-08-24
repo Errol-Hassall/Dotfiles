@@ -44,8 +44,3 @@ fpath=(${ASDF_DATA_DIR:-$HOME/.asdf}/completions $fpath)
 # initialise completions with ZSH's compinit
 autoload -Uz compinit && compinit
 export PATH="/opt/homebrew/opt/libxslt/bin:$PATH"
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/errol/.lmstudio/bin"
-# End of LM Studio CLI section
-
