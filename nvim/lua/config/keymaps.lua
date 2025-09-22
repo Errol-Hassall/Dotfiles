@@ -23,3 +23,5 @@ end)
 vim.keymap.set("n", "<leader>h4", function()
   harpoon:list():select(4)
 end)
+
+vim.keymap.set("n", "<leader>ba", ":bufdo bd<CR>:enew<CR>", { desc = "Close all buffers but keep window" })
